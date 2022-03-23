@@ -1,0 +1,142 @@
+
+/* #title{
+    background-color: #8F00FF;
+} */
+body{
+    font-family: "Montserrat";
+    text-align: center;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-family: "Montserrat-Bold";
+}
+h1{
+    font-family: 'Montserrat-Black', sans-serif;
+    font-size: 3.5rem;
+    line-height: 1.5;
+    
+
+/* font-family: 'Ubuntu', sans-serif; */
+}
+h2{
+    font-family: 'Montserrat-Bold';
+    font-size: 3rem;
+    line-height: 1.5;
+}
+
+p{
+    color: #8f8f8f;
+}
+.container-fluid{
+    padding: 3% 15% 9%;
+
+}
+
+/* sections */
+.colored-section{
+    background-color: #8F00FF;
+    color: #fff;
+}
+
+.uncolored-section{
+    background-color: #fff;
+}
+/*-------------------------------------------------------------------------*/
+.mobile-dog{
+    width: 20%;
+    transform: rotate(25deg);
+    position: absolute;
+    right: 25%;
+}
+ /* section features ---------------------------------------------------------------------------------*/
+#features{
+    padding: 7% 15%;
+    position: relative;
+}
+
+.text-light{
+    padding-top: 40px;
+    width: 70%;
+}
+.feature-box{
+    text-align:center;
+    padding: 5%;
+}
+/*mus class is for all the icons .... */
+.mus{
+    color: #CF9FFF;/*normally this and after hovour over it will be next one*/
+    margin-bottom: 1rem;
+    
+}
+
+.mus:hover{/*css element for hover over*/
+    color:#8F00FF;
+}
+
+/* testimonial section------------------------------------------------------------------------------------ */
+#testimonials{
+    padding: 7% 15%;
+    text-align: center;
+    background-color: #CF9FFF;
+    /*color: #fff; */
+}
+
+.testimonial-img{
+    width: 10%;
+    border-radius: 100%;
+    margin: 20px;
+}
+#press{
+    background-color: #CF9FFF;
+    text-align: center;
+    padding-bottom: 3%;
+}
+.press-logo{
+    width: 15%;
+    margin: 20px 20px 50px;
+}
+
+/* cta section -----------------------------------------------------------------------*/
+#cta{
+    /* background-color: #8F00FF;
+    color: #fff; */
+    text-align: center;
+    padding: 7% 15%;
+}
+.cta-heading{
+    font-family: 'Montserrat-Black';
+    font-size: 3.5rem;
+    line-height: 1.5;
+    padding-bottom: 20px;
+}
+
+/* footer section ---------------------------------------------------------------------------*/
+#footer{
+    padding: 7% 15%;
+    text-align: center;
+}
+
+.social-icon{
+    margin: 20px 10px;
+}
+.download-botton{
+    margin: 20px 10px;
+}
+
+/* for modifing the viewport-------------------------------------------------------------- */
+@media(max-width: 1028px){
+    #title{
+        text-align: center;
+    }
+    .mobile-dog{
+        position: static;
+        transform: rotate(0deg);
+    }
+
+}
+
+#pricing{
+    font-family: 'Montserrat-Black';
+    text-align: center;
+    padding-bottom: 20px;
+}
